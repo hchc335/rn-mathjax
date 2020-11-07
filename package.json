@@ -1,0 +1,22 @@
+{
+  "name": "rn-mathjax",
+  "version": "1.0.0",
+  "description": "mathjax for react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hchc335/rn-mathjax.git"
+  },
+  "keywords": [
+    "mathjax"
+  ],
+  "author": "hchc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hchc335/rn-mathjax/issues"
+  },
+  "homepage": "https://github.com/hchc335/rn-mathjax#readme"
+}
