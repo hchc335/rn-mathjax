@@ -12,6 +12,8 @@ const defaultOptions = {
 		processEscapes: true,
 	},
 	TeX: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']],
 		extensions: ['AMSmath.js', 'AMSsymbols.js', 'noErrors.js', 'noUndefined.js']
 	}
 };
@@ -52,7 +54,7 @@ class MathJax extends React.Component {
 				}, 500);
 				true; // note: this is required, or you'll sometimes get silent failures
 			</script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js"></script>
+    		<script src="http://gamliteit.dyndns.biz:776/tex-chtml.js"></script>
 			<div id="formula" style="visibility: hidden;">
 		 		${content}
 		 	</div>
